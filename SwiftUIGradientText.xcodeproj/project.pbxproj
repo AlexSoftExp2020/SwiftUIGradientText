@@ -11,6 +11,8 @@
 		49135EF62CC7ACAE00721C3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135EF52CC7ACAE00721C3A /* ContentView.swift */; };
 		49135EF82CC7ACB000721C3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49135EF72CC7ACB000721C3A /* Assets.xcassets */; };
 		49135EFB2CC7ACB000721C3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49135EFA2CC7ACB000721C3A /* Preview Assets.xcassets */; };
+		49135F022CC7AD2900721C3A /* BasicGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F012CC7AD2900721C3A /* BasicGradientText.swift */; };
+		49135F042CC7B21500721C3A /* CustomGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49135F032CC7B21500721C3A /* CustomGradientText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		49135EF52CC7ACAE00721C3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49135EF72CC7ACB000721C3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49135EFA2CC7ACB000721C3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49135F012CC7AD2900721C3A /* BasicGradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGradientText.swift; sourceTree = "<group>"; };
+		49135F032CC7B21500721C3A /* CustomGradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				49135EF32CC7ACAE00721C3A /* SwiftUIGradientTextApp.swift */,
 				49135EF52CC7ACAE00721C3A /* ContentView.swift */,
+				49135F032CC7B21500721C3A /* CustomGradientText.swift */,
+				49135F012CC7AD2900721C3A /* BasicGradientText.swift */,
 				49135EF72CC7ACB000721C3A /* Assets.xcassets */,
 				49135EF92CC7ACB000721C3A /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49135EF62CC7ACAE00721C3A /* ContentView.swift in Sources */,
+				49135F042CC7B21500721C3A /* CustomGradientText.swift in Sources */,
 				49135EF42CC7ACAE00721C3A /* SwiftUIGradientTextApp.swift in Sources */,
+				49135F022CC7AD2900721C3A /* BasicGradientText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
